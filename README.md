@@ -8,8 +8,8 @@ Entrar en startssl.com e ir a 'Control Panel':
 ![alt tag](https://raw.github.com/nashgul/startssl_free_cert/images/1.png?raw_true "Entrar en Control Panel")
 
 2. Rellenar el formulario con los datos personales, es recomendable no usar datos falsos.
-![alt tag](https://raw.github.com/nashgul/startssl_free_cert/images/2.png?raw_true "Rellenar formulario")
+![alt tag](https://github.com/nashgul/startssl_free_cert/images/2.png?raw_true "Rellenar formulario")
 
 3. Después de rellenar el formulario, envían un correo con un código de validación, hay que ponerlo para poder continuar.
-![alt tag](https://raw.github.com/nashgul/startssl_free_cert/images/3.png?raw_true "Confirmar con el código recibido")
+![alt tag](https://github.com/nashgul/startssl_free_cert/images/3.png?raw_true "Confirmar con el código recibido")
 
