@@ -101,5 +101,5 @@ En caso de tener varios hosts, y que le queramos sacar certificados, en principi
 
 5. Descargar el el certificado y pegar el contenido en un fichero .crt
 
-Ya tenemos el '.crt' necesario para nuestro subdominio.
+Ya tenemos el '.crt' necesario para nuestro subdominio, y podemos hacer esto todas las veces queramos.
 
