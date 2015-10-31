@@ -85,21 +85,4 @@ Con los 3 ficheros tenemos todo lo necesario para montar un servidor web en http
 
 Evidentemente todo esto lo podemos hacer autofirmando nosotros mismo un certificado y creando una entidad certificadora, pero de esta forma se hace en condiciones y no cuesta ningun trabajo ni dinero.
 
-# NUEVOS CERTIFICADOS PARA MÁS HOSTS
-
-En caso de tener varios hosts, y que le queramos sacar certificados, en principio no se puede, pero podemos hacer lo siguiente:
-
-1. Crear .csr y .pem en el host en cuestión mediante este comando:
-	openssl req -newkey rsa:2048 -nodes -keyout subdominio.ejemplo.com.pem -sha256 -out subdominio.ejemplo.com.csr
-
-2. Proteger el .pem:
-	chmod 600 subdominio.ejemplo.com.pem
-
-3. Copiar el texto del .csr y ponerlo en el formulario de startssl.com
-
-4. Elegir el dominio que tenemos registrado, y poner el subdominio
-
-5. Descargar el el certificado y pegar el contenido en un fichero .crt
-
-Ya tenemos el '.crt' necesario para nuestro subdominio, y podemos hacer esto todas las veces queramos.
 
