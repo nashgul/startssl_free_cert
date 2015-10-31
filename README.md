@@ -19,62 +19,62 @@ Entrar en startssl.com e ir a 'Control Panel':
 5. Instalamos el certificado en el navegador, será necesario para poder administrar nuestro dominio en startssl.com posteriormente.
 ![alt tag](images/5.png?raw_true "Instalar certificado")
 
-5.1. Verificamos que el certificado se instaló corretamente en el navegador.
+6. Verificamos que el certificado se instaló corretamente en el navegador.
 ![alt tag](images/5.1.png?raw_true "Verificar certificado")
 
-6. Felicidades! Tu certificado personal se ha instalado en el navegador. (Más abajo explico cómo exportarlo para guardarlo y usarlo en otros pcs o navegadores)
+7. Felicidades! Tu certificado personal se ha instalado en el navegador. (Más abajo explico cómo exportarlo para guardarlo y usarlo en otros pcs o navegadores)
 ![alt tag](images/6.png?raw_true "Continuar")
 
-7. Ahora sí ponemos el nombre del dominio para el que queremos el certificado.
+8. Ahora sí ponemos el nombre del dominio para el que queremos el certificado.
 ![alt tag](images/7.png?raw_true "Poner nombre del dominio")
 
-8. Elegimos la cuenta de correo donde queremos que nos manden la verificación del certificado del dominio.
+9. Elegimos la cuenta de correo donde queremos que nos manden la verificación del certificado del dominio.
 En el caso del dominio de h¡hostinger.es, previamente hemos tenido que crear una cuenta de correo en nuestro servidor de correo gratuito con uno de estos nombres: postmaster, hostmaster, webmaster.
 ![alt tag](images/8.png?raw_true "Elegir cuenta de correo del dominio")
 
-9. Ponemos el código que nos envíen a la cuenta de administrador del dominio.
+10. Ponemos el código que nos envíen a la cuenta de administrador del dominio.
 ![alt tag](images/9.png?raw_true "Escribir código de activación el el fromulario")
 
-10. Generar la clave privada del dominio. Ojo! guardar muy bien el password que pongamos, si lo perdemos no podremos descifrar la clave del dominio.
+11. Generar la clave privada del dominio. Ojo! guardar muy bien el password que pongamos, si lo perdemos no podremos descifrar la clave del dominio.
 ![alt tag](images/10.png?raw_true "Generar clave privada del dominio")
 
-11. Copiar, sin formato, la clave y guardarla en un fichero de texto plano, por ejemplo, 'ssl_crypted.key'
+12. Copiar, sin formato, la clave y guardarla en un fichero de texto plano, por ejemplo, 'ssl_crypted.key'
 ![alt tag](images/11.png?raw_true "Copiar y guardar clave cifrada")
 
-12. Descifrar la clave descifrada con openssl en la terminal y guardarla en un fichero, por ejemplo, 'ssl.key'. Guardar ese fichero en lugar seguro y solo accesible por nosotros.
+13. Descifrar la clave descifrada con openssl en la terminal y guardarla en un fichero, por ejemplo, 'ssl.key'. Guardar ese fichero en lugar seguro y solo accesible por nosotros.
 ![alt tag](images/12.png?raw_true "Descifrar y guardar clave en un fichero.")
 
-13. Ahora crear el certificado para nuestro host. Elegir el dominio donde se encuentra el host.
+14. Ahora crear el certificado para nuestro host. Elegir el dominio donde se encuentra el host.
 ![alt tag](images/13.png?raw_true "Elegir el dominio")
 
-14. Escribir el nombre del host.
+15. Escribir el nombre del host.
 ![alt tag](images/14.png?raw_true "Escribir nombre del host")
 
-15. Esperar 3 horas aproximadamente a que verifiquen nuestros datos.
+16. Esperar 3 horas aproximadamente a que verifiquen nuestros datos.
 ![alt tag](images/15.png?raw_true "Esperar pacientemente")
 
-16. Mientras esperamos podemos ir exportando y guardando en lugar seguro nuestro certificado personal. Elegimos el certificado en cuestión y pulsamos en 'exportar'
+17. Mientras esperamos podemos ir exportando y guardando en lugar seguro nuestro certificado personal. Elegimos el certificado en cuestión y pulsamos en 'exportar'
 ![alt tag](images/16.png?raw_true "Seleccionar certificado personal y exportarlo")
 
-16.1. Le ponemos un password a nuestro certificado personal. Ojo! Si perdemos el password ya no podremos acceder a nuestra cuenta de startssl.com en caso de borrar el navegador en el que lo tenemos instalado,
+18. Le ponemos un password a nuestro certificado personal. Ojo! Si perdemos el password ya no podremos acceder a nuestra cuenta de startssl.com en caso de borrar el navegador en el que lo tenemos instalado,
 ![alt tag](images/16.1.png?raw_true "Poner contraseña al certificado.")
 
-17. Una vez nos avisen por correo que ya tenemos nuestro certificado listo, volvemos a entrar en 'Control Panel' y pulsamos en 'Authenticate' para entrar en nuestra cuenta de startssl.com
+19. Una vez nos avisen por correo que ya tenemos nuestro certificado listo, volvemos a entrar en 'Control Panel' y pulsamos en 'Authenticate' para entrar en nuestra cuenta de startssl.com
 ![alt tag](images/17.png?raw_true "Authenticate")
 
-18. En caso de ser dueños de varios dominios y tener varios certificados, elegir el certificado del dominio en cuestión.
+20. En caso de ser dueños de varios dominios y tener varios certificados, elegir el certificado del dominio en cuestión.
 ![alt tag](images/17.1.png?raw_true "Elegir certificado")
 
-19. Pulsar en 'Retrieve Certificate' para poder descargar el certificado y elegir el único que debemos tener.
+21. Pulsar en 'Retrieve Certificate' para poder descargar el certificado y elegir el único que debemos tener.
 ![alt tag](images/18.png?raw_true "Descargar certificado")
 
-20. Copiar y guardar el certificado en un fichero '.crt'. Guardar en lugar seguro.
+22. Copiar y guardar el certificado en un fichero '.crt'. Guardar en lugar seguro.
 ![alt tag](images/19.png?raw_true "Guardar certificado")
 
-21. Comprobar que el fichero '.crt' contiene todos nuestros datos y el nombre del host.
+23. Comprobar que el fichero '.crt' contiene todos nuestros datos y el nombre del host.
 ![alt tag](images/19.1.png?raw_true "Guardar certificado")
 
-22. Último paso. Si queremos usar nuestro certificado para un servidor web con una página en https, descargar el fichero '.pem' necesario de la página de startssl.com, ' http://www.startssl.com/certs/sub.class1.server.ca.pem '
+24. Último paso. Si queremos usar nuestro certificado para un servidor web con una página en https, descargar el fichero '.pem' necesario de la página de startssl.com, ' http://www.startssl.com/certs/sub.class1.server.ca.pem '
 
 # Resumen
 
