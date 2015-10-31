@@ -62,19 +62,19 @@ En el caso del dominio de h¡hostinger.es, previamente hemos tenido que crear un
 17. Una vez nos avisen por correo que ya tenemos nuestro certificado listo, volvemos a entrar en 'Control Panel' y pulsamos en 'Authenticate' para entrar en nuestra cuenta de startssl.com
 ![alt tag](images/17.png?raw_true "Authenticate")
 
-17.1. En caso de ser dueños de varios dominios y tener varios certificados, elegir el certificado del dominio en cuestión.
+18. En caso de ser dueños de varios dominios y tener varios certificados, elegir el certificado del dominio en cuestión.
 ![alt tag](images/17.1.png?raw_true "Elegir certificado")
 
-18. Pulsar en 'Retrieve Certificate' para poder descargar el certificado y elegir el único que debemos tener.
+19. Pulsar en 'Retrieve Certificate' para poder descargar el certificado y elegir el único que debemos tener.
 ![alt tag](images/18.png?raw_true "Descargar certificado")
 
-19. Copiar y guardar el certificado en un fichero '.crt'. Guardar en lugar seguro.
+20. Copiar y guardar el certificado en un fichero '.crt'. Guardar en lugar seguro.
 ![alt tag](images/19.png?raw_true "Guardar certificado")
 
-19.1. Comprobar que el fichero '.crt' contiene todos nuestros datos y el nombre del host.
+21. Comprobar que el fichero '.crt' contiene todos nuestros datos y el nombre del host.
 ![alt tag](images/19.1.png?raw_true "Guardar certificado")
 
-20. Último paso. Si queremos usar nuestro certificado para un servidor web con una página en https, descargar el fichero '.pem' necesario de la página de startssl.com, ' http://www.startssl.com/certs/sub.class1.server.ca.pem '
+22. Último paso. Si queremos usar nuestro certificado para un servidor web con una página en https, descargar el fichero '.pem' necesario de la página de startssl.com, ' http://www.startssl.com/certs/sub.class1.server.ca.pem '
 
 # Resumen
 
