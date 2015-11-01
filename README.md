@@ -63,6 +63,7 @@ En el caso del dominio de h¡hostinger.es, previamente hemos tenido que crear un
 ![alt tag](images/17.png?raw_true "Authenticate")
 
 20. En caso de ser dueños de varios dominios y tener varios certificados, elegir el certificado del dominio en cuestión.
+
 ![alt tag](images/17.1.png?raw_true "Elegir certificado")
 
 21. Pulsar en 'Retrieve Certificate' para poder descargar el certificado y elegir el único que debemos tener.
